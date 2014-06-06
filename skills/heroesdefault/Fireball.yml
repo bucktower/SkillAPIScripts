@@ -1,0 +1,44 @@
+Fireball:
+  type: Target
+  indicator: Fireball,0
+  max-level: 5
+  needs-permission: false
+  description:
+  - 'Shoots a fireballs that'
+  - 'ignites the target'
+  message: 'Launched fireball.'
+  permissions: []
+  active:
+    m0:
+      effect: Projectile
+      target: Self
+      group: Ally
+  passive: {}
+  embed: {}
+  attributes:
+    Level:
+      base: 1
+      scale: 1
+    Cost:
+      base: 1
+      scale: 0
+    Mana:
+      base: 0
+      scale: 0
+    Cooldown:
+      base: 0
+      scale: 0
+    Speed:
+      base: 3
+      scale: 1
+    Angle:
+      base: 30
+      scale: 0
+    Quantity:
+      base: 1
+      scale: 0
+  values:
+    Projectile: 4
+    Spread: 0
+    Use Arrow: 0
+  strings: {}

@@ -1,0 +1,39 @@
+Root:
+  type: Target
+  indicator: Apple,0
+  max-level: 5
+  needs-permission: false
+  description:
+  - 'Immobilizes the target'
+  - 'for several seconds'
+  message: 'Rooted target.'
+  permissions: []
+  active:
+    m0:
+      effect: Status
+      target: Target
+      group: Enemy
+  passive: {}
+  embed: {}
+  attributes:
+    Level:
+      base: 1
+      scale: 1
+    Cost:
+      base: 1
+      scale: 0
+    Mana:
+      base: 0
+      scale: 0
+    Cooldown:
+      base: 0
+      scale: 0
+    Range:
+      base: 8
+      scale: 0
+    Length:
+      base: 3
+      scale: 1
+  values:
+    Status: 1
+  strings: {}

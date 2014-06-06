@@ -1,0 +1,40 @@
+Might:
+  type: Area
+  indicator: Raw_Beef,0
+  max-level: 5
+  needs-permission: false
+  description:
+  - 'Boosts your partys damage'
+  message: 'Boosted your partys damage'
+  permissions: []
+  active:
+    m0:
+      effect: DamageBonus
+      target: Area
+      group: Ally
+  passive: {}
+  embed: {}
+  attributes:
+    Level:
+      base: 1
+      scale: 1
+    Cost:
+      base: 1
+      scale: 0
+    Mana:
+      base: 0
+      scale: 0
+    Cooldown:
+      base: 0
+      scale: 0
+    Radius:
+      base: 5
+      scale: 0
+    Bonus:
+      base: 2
+      scale: 1
+    Bonus Duration:
+      base: 10
+      scale: 0
+  values: {}
+  strings: {}

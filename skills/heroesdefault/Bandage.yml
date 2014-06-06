@@ -1,0 +1,44 @@
+Bandage:
+  type: Target
+  indicator: Paper,0
+  max-level: 5
+  needs-permission: false
+  description:
+  - 'Heals the target, as well'
+  - 'as stops bleed effects'
+  message: 'Bandaged target.'
+  permissions: []
+  active:
+    m0:
+      effect: Cleanse
+      target: Target
+      group: Ally
+    m1:
+      effect: HealPercent
+      target: Target
+      group: Ally
+  passive: {}
+  embed: {}
+  attributes:
+    Level:
+      base: 1
+      scale: 1
+    Cost:
+      base: 1
+      scale: 0
+    Mana:
+      base: 0
+      scale: 0
+    Cooldown:
+      base: 0
+      scale: 0
+    Range:
+      base: 8
+      scale: 0
+    Heal Percent:
+      base: 10
+      scale: 5
+  values:
+    Cleanse: 268435456
+    HealType: 2
+  strings: {}

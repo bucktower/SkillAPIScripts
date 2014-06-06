@@ -1,0 +1,37 @@
+Wisdom:
+  type: Area
+  indicator: Book,0
+  max-level: 5
+  needs-permission: false
+  description:
+  - 'Boosts your party’s mana'
+  message: 'Boosted your party’s mana.'
+  permissions: []
+  active:
+    m0:
+      effect: ManaPercent
+      target: Area
+      group: Ally
+  passive: {}
+  embed: {}
+  attributes:
+    Level:
+      base: 1
+      scale: 1
+    Cost:
+      base: 1
+      scale: 0
+    Mana:
+      base: 0
+      scale: 0
+    Cooldown:
+      base: 0
+      scale: 0
+    Radius:
+      base: 10
+      scale: 0
+    Percent Mana:
+      base: 4
+      scale: 2
+  values: {}
+  strings: {}

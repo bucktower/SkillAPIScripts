@@ -1,0 +1,42 @@
+Bleed:
+  type: Target
+  indicator: Redstone,0
+  max-level: 5
+  needs-permission: false
+  description:
+  - 'Inflicts a damage over'
+  - 'time bleed effect'
+  message: 'Target is now bleeding.'
+  permissions: []
+  active:
+    m0:
+      effect: Potion
+      target: Target
+      group: Enemy
+  passive: {}
+  embed: {}
+  attributes:
+    Level:
+      base: 1
+      scale: 1
+    Cost:
+      base: 1
+      scale: 0
+    Mana:
+      base: 0
+      scale: 0
+    Cooldown:
+      base: 0
+      scale: 0
+    Range:
+      base: 8
+      scale: 0
+    Tier:
+      base: 0
+      scale: 0
+    Duration:
+      base: 5
+      scale: 2
+  values:
+    Type: 20
+  strings: {}

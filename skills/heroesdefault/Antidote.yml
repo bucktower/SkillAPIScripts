@@ -1,0 +1,36 @@
+Antidote:
+  type: Target
+  indicator: Milk_Bucket,0
+  max-level: 5
+  needs-permission: false
+  description:
+  - 'Cures your target of'
+  - 'poison'
+  message: 'Cured target of poison.'
+  permissions: []
+  active:
+    m0:
+      effect: Cleanse
+      target: Target
+      group: Ally
+  passive: {}
+  embed: {}
+  attributes:
+    Level:
+      base: 1
+      scale: 1
+    Cost:
+      base: 1
+      scale: 0
+    Mana:
+      base: 0
+      scale: 0
+    Cooldown:
+      base: 0
+      scale: 0
+    Range:
+      base: 8
+      scale: 0
+  values:
+    Cleanse: 1048576
+  strings: {}

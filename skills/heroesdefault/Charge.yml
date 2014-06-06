@@ -1,0 +1,38 @@
+Charge:
+  type: Target
+  indicator: Wood_Sword,0
+  max-level: 5
+  needs-permission: false
+  description:
+  - 'Charges you towards the'
+  - 'target'
+  message: 'Charge!'
+  permissions: []
+  active:
+    m0:
+      effect: Launch
+      target: Self
+      group: Ally
+  passive: {}
+  embed: {}
+  attributes:
+    Level:
+      base: 1
+      scale: 1
+    Cost:
+      base: 1
+      scale: 0
+    Mana:
+      base: 0
+      scale: 0
+    Cooldown:
+      base: 0
+      scale: 0
+    Vertical Speed:
+      base: 0
+      scale: 0
+    Horizontal Speed:
+      base: 3
+      scale: 1
+  values: {}
+  strings: {}
